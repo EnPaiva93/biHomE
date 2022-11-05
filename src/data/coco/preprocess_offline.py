@@ -2,6 +2,9 @@ import os
 import argparse
 from torchvision import transforms
 
+import sys
+sys.path.append('/content/biHomE')
+
 from src.data.coco.dataset import Dataset
 from src.data.transforms import Rescale, CenterCrop
 
